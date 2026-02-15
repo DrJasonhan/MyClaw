@@ -1,0 +1,29 @@
+{
+  "name": "myclaw",
+  "version": "1.0.0",
+  "description": "A personal AI assistant powered by OpenClaw",
+  "main": "index.js",
+  "scripts": {
+    "openclaw": "openclaw",
+    "gateway": "openclaw gateway --port 18789 --verbose --allow-unconfigured",
+    "onboard": "openclaw onboard",
+    "agent": "openclaw agent",
+    "doctor": "openclaw doctor",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrJasonhan/MyClaw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DrJasonhan/MyClaw/issues"
+  },
+  "homepage": "https://github.com/DrJasonhan/MyClaw#readme",
+  "dependencies": {
+    "openclaw": "^2026.2.14"
+  }
+}
