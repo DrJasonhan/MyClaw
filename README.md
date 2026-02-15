@@ -5,12 +5,24 @@ A personal AI assistant powered by [OpenClaw](https://github.com/OpenClaw/OpenCl
 ## Prerequisites
 
 - Node.js ≥ 22
+- API keys for AI models (Anthropic Claude or OpenAI) - required for full functionality
+  - See [OpenClaw models documentation](https://docs.openclaw.ai/concepts/models) for setup
 
 ## Installation
 
 ```bash
 npm install
 ```
+
+## Quick Demo
+
+To verify the installation is working:
+
+```bash
+./demo.sh
+```
+
+This will check the OpenClaw version, run health checks, and test the gateway startup.
 
 ## Running OpenClaw
 
